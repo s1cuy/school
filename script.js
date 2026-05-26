@@ -51,7 +51,6 @@ tabs.forEach(button => {
     });
 });
 
-// ===== МОДАЛЬНОЕ ОКНО =====
 const modal = document.getElementById("enrollModal");
 const startBtn = document.getElementById("startBtn");
 const closeBtn = document.querySelector(".close");
@@ -74,7 +73,6 @@ window.addEventListener("click", (event) => {
     }
 });
 
-// Обработка формы записи на обучение
 const enrollForm = document.getElementById("enrollForm");
 if (enrollForm) {
     enrollForm.addEventListener("submit", function(e) {
@@ -97,7 +95,6 @@ if (enrollForm) {
     });
 }
 
-// Обработка формы контакта
 const contactForm = document.getElementById("contactForm");
 if (contactForm) {
     contactForm.addEventListener("submit", function(e) {
@@ -117,11 +114,10 @@ if (contactForm) {
     });
 }
 
-// Инициализация при загрузке страницы
 document.addEventListener("DOMContentLoaded", () => {
     renderSchedule("music");
     
-    // Гладкий скролл при клике на ссылки якоря
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             const href = this.getAttribute('href');
