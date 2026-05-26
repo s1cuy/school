@@ -49,6 +49,10 @@ body {
     font-weight: 500;
 }
 
+.menu a:hover {
+    color: white;
+}
+
 .hero {
     text-align: center;
     padding: 100px 20px;
