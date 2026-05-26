@@ -17,7 +17,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* ===== HEADER ===== */
 .header {
     background: #222;
     color: white;
@@ -54,7 +53,6 @@ body {
     color: #ffd700;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -97,7 +95,6 @@ body {
     background: #444;
 }
 
-/* ===== SCHEDULE SECTION ===== */
 .schedule-controls {
     margin-top: 30px;
     display: flex;
@@ -130,7 +127,6 @@ body {
     color: white;
 }
 
-/* ===== GENERAL SECTIONS ===== */
 section {
     padding: 50px 20px;
     margin: 20px auto;
@@ -156,7 +152,6 @@ section > p {
     text-align: center;
 }
 
-/* ===== ABOUT CARDS ===== */
 .about-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -185,7 +180,6 @@ section > p {
     text-align: left;
 }
 
-/* ===== CARDS CONTAINER (COURSES) ===== */
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -257,7 +251,6 @@ section > p {
     background: #444;
 }
 
-/* ===== TEACHERS SECTION ===== */
 .teacher {
     background: white;
     padding: 30px;
@@ -285,7 +278,6 @@ section > p {
     color: #222;
 }
 
-/* ===== TESTIMONIALS ===== */
 .testimonials-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -315,7 +307,6 @@ section > p {
     font-size: 14px;
 }
 
-/* ===== TABLE ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -344,7 +335,6 @@ tr:hover {
     background: #f9f9f9;
 }
 
-/* ===== CONTACT SECTION ===== */
 .contact-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -374,7 +364,6 @@ tr:hover {
     text-align: left;
 }
 
-/* ===== CONTACT FORM ===== */
 .contact-form {
     background: white;
     padding: 40px;
@@ -430,7 +419,6 @@ tr:hover {
     background: #444;
 }
 
-/* ===== MODAL ===== */
 .modal {
     display: none;
     position: fixed;
@@ -512,7 +500,6 @@ tr:hover {
     background: #444;
 }
 
-/* ===== FOOTER ===== */
 .footer {
     background: #222;
     color: white;
@@ -526,7 +513,6 @@ tr:hover {
     font-size: 14px;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
 @media(max-width: 768px) {
     .header {
         flex-direction: column;
